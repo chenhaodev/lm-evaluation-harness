@@ -1,0 +1,1 @@
+lm_eval --model hf --model_args pretrained=mistralai/Mistral-7B-v0.1,parallelize=True,load_in_4bit=True,peft=chenhugging/mistral-7b-medwiki-v1 --tasks medmcqa,pubmedqa,mmlu_clinical_knowledge,mmlu_college_medicine,mmlu_professional_medicine --device cuda:0
